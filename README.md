@@ -1,7 +1,7 @@
 # Trello-Notification-Alert
-I use Trello... a lot. Sadly, I don't always know when somebody is tagging me on Trello cards. So to fix this, I decided to built this alert system that automatically sends a text to my phone whenever it sees a new notification.
+I use Trello... a lot. Sadly, I don't always know when somebody is tagging me on Trello cards. So to fix this, I decided to build this alert system that automatically sends a text to my phone whenever it sees a new notification.
 
-I set up a MySQL database to save previous messages, allowing the script to ignore messages I've already recieved by text.
+I set up a MySQL database to save previous messages, allowing the script to ignore messages I've already recieved by text. It connects to Trello's API and requires an API key to access.
 
 
 ## What You Need:
